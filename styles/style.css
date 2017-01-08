@@ -6,6 +6,18 @@ h1, h2, h3 {
   text-decoration: underline;
 }
 
+a {
+  text-decoration: none;
+  font-size: larger;
+}
+
+nav > ul > li {
+  display: inline-block;
+  float: right;
+  list-style-type: none;
+  padding: 1em;
+}
+
 .about {
   height: 550px;
   width: 255px;
