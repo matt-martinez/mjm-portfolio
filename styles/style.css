@@ -6,6 +6,7 @@ h1 {
   display: block;
   margin: 5px 8px;
   text-decoration: underline;
+  text-align: center;
 }
 
 a {
@@ -14,10 +15,10 @@ a {
 }
 
 nav > ul > li {
-  display: inline-block;
-  float: right;
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
-  padding: 1em;
+  /*padding: 1em;*/
 }
 
 .about {
