@@ -2,7 +2,9 @@ main {
   display: flex;
 }
 
-h1, h2, h3 {
+h1 {
+  display: block;
+  margin: 5px 8px;
   text-decoration: underline;
 }
 
@@ -27,12 +29,24 @@ nav > ul > li {
   padding: 0 5px;
 }
 
+h3 {
+  text-align: center;
+  font-size: larger;
+}
+
 img {
   height: 200px;
   border: 1px solid black;
   border-radius: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content {
   padding: 0 5px;
+}
+
+h2 {
+  text-decoration: underline;
 }
