@@ -1,14 +1,31 @@
+body {
+  background-color: lightblue;
+}
+
 main {
   display: flex;
 }
 
-h1 {
+/*headings*/
+#name {
   display: block;
   margin: 5px 8px;
   text-decoration: underline;
   text-align: center;
+  font-size: 3em;
 }
 
+#subTitle {
+  text-align: center;
+  margin: 0;
+}
+
+#aboutTitle {
+  text-align: center;
+  font-size: larger;
+}
+
+/*About Me Aside*/
 .about {
   max-height: auto;
   width: 255px;
@@ -45,16 +62,12 @@ nav > ul > li {
 
 }
 
-h3 {
-  text-align: center;
-  font-size: larger;
-}
-
+/*Main Portfolio Content*/
 .content {
   padding: 0 5px;
 }
 
-h2 {
+.contentTitles {
   text-decoration: underline;
 }
 
