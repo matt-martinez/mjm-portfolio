@@ -1,10 +1,15 @@
 body {
-  background-color: lightblue;
+  background-color: lightgrey;
   font-family: 'Open Sans', sans-serif;
 }
 
 main {
   display: flex;
+}
+
+header {
+  background: black;
+  padding: 10px;
 }
 
 /*headings*/
@@ -14,11 +19,13 @@ main {
   text-align: center;
   font-size: 3em;
   font-family: 'Josefin Sans', sans-serif;
+  color: white;
 }
 
 #subTitle {
   text-align: center;
   margin: 0;
+  color: white;
 }
 
 #aboutTitle {
@@ -31,9 +38,8 @@ main {
   max-height: auto;
   width: 255px;
   float: left;
-  border: 2px solid black;
-  border-radius: 5px;
-  background-color: green;
+  border: 1px solid black;
+  background: #349906;
   padding: 0 5px;
 }
 
@@ -77,4 +83,5 @@ footer {
   color: white;
   background-color: black;
   height: 30px;
+  margin-top: -16px;
 }
