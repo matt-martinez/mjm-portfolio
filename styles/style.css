@@ -22,7 +22,7 @@ nav > ul > li {
 }
 
 .about {
-  height: 550px;
+  max-height: auto;
   width: 255px;
   border: 2px solid black;
   border-radius: 5px;
@@ -54,4 +54,7 @@ h2 {
 
 footer {
   text-align: center;
+  color: white;
+  background-color: black;
+  height: 30px;
 }
