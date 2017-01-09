@@ -38,7 +38,7 @@ header {
   max-height: auto;
   width: 255px;
   float: left;
-  border: 1px solid black;
+  border: 2px solid black;
   background: #349906;
   padding: 0 5px;
 }
@@ -66,12 +66,12 @@ nav > ul > li {
   border-radius: 15px;
   padding: 5px;
   text-align: center;
-
 }
 
 /*Main Portfolio Content*/
 .content {
   padding: 0 5px;
+  border: 2px solid black;
 }
 
 .contentTitles {
