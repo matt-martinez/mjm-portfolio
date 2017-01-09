@@ -36,8 +36,8 @@ header {
 
 /*About Me Aside*/
 .about {
-  max-height: auto;
   width: 255px;
+  height: 99.5%;
   float: left;
   border: 2px solid black;
   background: #349906;
@@ -73,6 +73,7 @@ nav > ul > li {
 .content {
   padding: 0 5px;
   border: 2px solid black;
+  height: 100%;
 }
 
 .contentTitles {
@@ -104,5 +105,10 @@ footer {
 
   aside {
     order: 2;
+  }
+
+  #blackjack {
+    height: 50%;
+    width: 75%;
   }
 }
