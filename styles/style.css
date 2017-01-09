@@ -117,6 +117,10 @@ footer {
     order: 2;
   }
 
+  .about {
+    width: auto;
+  }
+
   #blackjack {
     height: 50%;
     width: 75%;
