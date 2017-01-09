@@ -44,7 +44,7 @@ header {
   padding: 0 5px;
 }
 
-img {
+#profilePhoto {
   height: 200px;
   border: 1px solid black;
   border-radius: 20px;
@@ -77,6 +77,15 @@ nav > ul > li {
 
 .contentTitles {
   text-decoration: underline;
+}
+
+#blackjack {
+  height: 300px;
+  width: 500px;
+  display: block;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: auto;
 }
 
 footer {
