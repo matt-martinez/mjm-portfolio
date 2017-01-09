@@ -5,6 +5,7 @@ body {
 
 main {
   display: flex;
+  margin: auto;
 }
 
 header {
@@ -84,4 +85,15 @@ footer {
   background-color: black;
   height: 30px;
   margin-top: -16px;
+}
+
+/*Responsive Layout*/
+@media screen and (max-width: 620px) {
+  main {
+    flex-direction: column;
+  }
+
+  aside {
+    order: 2;
+  }
 }
