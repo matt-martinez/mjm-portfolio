@@ -89,6 +89,16 @@ nav > ul > li {
   margin: auto;
 }
 
+.skills {
+  list-style-type: none;
+}
+
+#education {
+  list-style-type: none;
+  line-height: 1;
+  margin-left: -40px;
+}
+
 footer {
   text-align: center;
   color: white;
