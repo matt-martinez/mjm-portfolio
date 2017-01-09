@@ -1,5 +1,6 @@
 body {
   background-color: lightblue;
+  font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -10,9 +11,9 @@ main {
 #name {
   display: block;
   margin: 5px 8px;
-  text-decoration: underline;
   text-align: center;
   font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #subTitle {
