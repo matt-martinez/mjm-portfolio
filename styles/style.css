@@ -78,7 +78,7 @@ nav > ul > li {
 }
 
 .projectPhoto {
-  height: 300px;
+  height: 400px;
   width: 500px;
   display: block;
   border: 1px solid black;
@@ -87,6 +87,12 @@ nav > ul > li {
 }
 
 .skills {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.skillsList {
   list-style-type: none;
 }
 
@@ -110,8 +116,13 @@ footer {
     flex-direction: column;
   }
 
-  aside {
-    /*order: 0;*/
+  .projectPhoto {
+    height: 200px;
+    width: 300px;
+  }
+
+  .skills {
+    flex-flow: column;
   }
 
   .about {
