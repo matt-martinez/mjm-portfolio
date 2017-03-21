@@ -77,7 +77,7 @@ nav > ul > li {
   text-decoration: underline;
 }
 
-#blackjack {
+.projectPhoto {
   height: 300px;
   width: 500px;
   display: block;
