@@ -1,4 +1,4 @@
-body {
+/*body {
   background-color: #CCCCCC;
   font-family: 'Open Sans', sans-serif;
   color: #333333;
@@ -12,10 +12,10 @@ main {
 header {
   background: #333333;
   padding: 10px;
-}
+}*/
 
 /*headings*/
-#name {
+/*#name {
   display: block;
   margin: 5px 8px;
   text-align: center;
@@ -33,10 +33,10 @@ header {
 #aboutTitle {
   text-align: center;
   font-size: larger;
-}
+}*/
 
 /*About Me Aside*/
-.about {
+/*.about {
   width: 255px;
   height: 99.9%;
   float: left;
@@ -65,10 +65,10 @@ nav > ul > li {
   height: 25px;
   width: 89px;
   text-align: center;
-}
+}*/
 
 /*Main Portfolio Content*/
-.content {
+/*.content {
   padding: 0 5px;
   border: 2px solid #333333;
   height: 100%;
@@ -109,10 +109,10 @@ footer {
   background-color: #333333;
   height: 30px;
   margin-top: -16px;
-}
+}*/
 
 /*Responsive Layout*/
-@media screen and (max-width: 620px) {
+/*@media screen and (max-width: 620px) {
   main {
     flex-direction: column;
   }
@@ -134,4 +134,4 @@ footer {
     height: 50%;
     width: 75%;
   }
-}
+}*/
