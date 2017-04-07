@@ -23,6 +23,21 @@ nav > ul > li {
   /*color: #F2F2F3;*/
 }
 
+#name {
+  display: block;
+  margin: 10px;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
+  /*color: #F2F2F3;*/
+}
+
+#subTitle {
+  text-align: center;
+  margin: 10px;
+  /*color: #F2F2F3;*/
+}
+
 /*main {
   display: flex;
   margin: auto;
@@ -33,23 +48,7 @@ nav > ul > li {
   padding: 10px;
 }*/
 
-/*headings*/
-/*#name {
-  display: block;
-  margin: 5px 8px;
-  text-align: center;
-  font-size: 3em;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #F2F2F3;
-}
-
-#subTitle {
-  text-align: center;
-  margin: 0;
-  color: #F2F2F3;
-}
-
-#aboutTitle {
+/*#aboutTitle {
   text-align: center;
   font-size: larger;
 }*/
