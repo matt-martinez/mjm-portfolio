@@ -8,6 +8,8 @@ body {
 nav > ul {
   padding: 0;
   text-align: center;
+  background: #333333;
+  height: 50px;
 }
 
 nav > ul > li {
@@ -17,10 +19,18 @@ nav > ul > li {
   width: 89px;*/
 }
 
+.contactIcons {
+  color: #1FDA9A;
+}
+
 .contactLinks {
   text-decoration: none;
   font-size: larger;
-  /*color: #F2F2F3;*/
+  color: #F2F2F3;
+}
+
+.contactLinks:hover {
+  color: #1FDA9A;
 }
 
 #name {
