@@ -32,6 +32,7 @@ nav > ul > li {
   color: #1FDA9A;
 }
 
+/* About */
 #name {
   display: block;
   margin: 10px;
@@ -47,38 +48,33 @@ nav > ul > li {
   /*color: #F2F2F3;*/
 }
 
-/*main {
-  display: flex;
-  margin: auto;
-}*/
-
-/*header {
-  background: #333333;
-  padding: 10px;
-}*/
+#profilePhoto {
+  height: 225px;
+  /*border: 1px solid #333333;*/
+  /*border-radius: 10px;*/
+  display: inline-block;
+  /*margin: 10px auto 0px auto;*/
+  padding: 20px;
+  float: left;
+}
 
 /*#aboutTitle {
   text-align: center;
   font-size: larger;
 }*/
 
-/*About Me Aside*/
-/*.about {
-  width: 255px;
-  height: 99.9%;
-  float: left;
+.about {
+  /*float: left;*/
   border: 2px solid #333333;
   background: #5BB12F;
-  padding: 0 5px;
+  /*padding: 0 5px;*/
+  height: 400px;
 }
 
-#profilePhoto {
-  height: 200px;
-  border: 1px solid #333333;
-  border-radius: 20px;
-  display: block;
-  margin: 10px auto 0px auto;
-}*/
+.aboutText {
+  text-align: left;
+  font-size: 1.5em;
+}
 
 /*Main Portfolio Content*/
 /*.content {
