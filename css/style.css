@@ -3,10 +3,12 @@ body {
   /*background-color: #CCCCCC;*/
   font-family: 'Open Sans', sans-serif;
   /*color: #333333;*/
+  margin: 0;
 }
 
 nav > ul {
   padding: 0;
+  margin: 0;
   text-align: center;
   background: #333333;
   height: 50px;
@@ -65,10 +67,11 @@ nav > ul > li {
 
 .about {
   /*float: left;*/
-  border: 2px solid #333333;
-  background: #5BB12F;
+  /*border: 2px solid #333333;*/
+  /*background: #5BB12F;*/
   /*padding: 0 5px;*/
   height: 400px;
+  margin: 20px;
 }
 
 .aboutText {
