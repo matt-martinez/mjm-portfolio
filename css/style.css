@@ -6,6 +6,7 @@ body {
   margin: 0;
 }
 
+/* Nav Bar */
 nav > ul {
   padding: 0;
   margin: 0;
@@ -52,24 +53,12 @@ nav > ul > li {
 
 #profilePhoto {
   height: 225px;
-  /*border: 1px solid #333333;*/
-  /*border-radius: 10px;*/
   display: inline-block;
-  /*margin: 10px auto 0px auto;*/
   padding: 20px;
   float: left;
 }
 
-/*#aboutTitle {
-  text-align: center;
-  font-size: larger;
-}*/
-
 .about {
-  /*float: left;*/
-  /*border: 2px solid #333333;*/
-  /*background: #5BB12F;*/
-  /*padding: 0 5px;*/
   height: 400px;
   margin: 20px;
 }
