@@ -2,7 +2,7 @@
 body {
   /*background-color: #CCCCCC;*/
   font-family: 'Open Sans', sans-serif;
-  /*color: #333333;*/
+  color: #333333;
   margin: 0;
 }
 
@@ -36,6 +36,11 @@ nav > ul > li {
 }
 
 /* About */
+.about {
+  height: 400px;
+  margin: 20px;
+}
+
 #name {
   display: block;
   margin: 10px;
@@ -58,34 +63,59 @@ nav > ul > li {
   float: left;
 }
 
-.about {
-  height: 400px;
-  margin: 20px;
-}
-
 .aboutText {
   text-align: left;
   font-size: 1.5em;
 }
 
 /*Main Portfolio Content*/
-/*.content {
-  padding: 0 5px;
-  border: 2px solid #333333;
-  height: 100%;
+.content {
+  margin: 20px;
 }
 
 .contentTitles {
-  text-decoration: underline;
+  text-align: center;
+  font-size: 2em;
+}
+
+.individualProject {
+  margin-bottom: 100px;
+}
+
+.leftProject {
+  text-align: left;
+  width: 49%;
+  float: left;
+  padding-right: 10px;
+}
+
+.rightProject {
+  text-align: left;
+  width: 49%;
+  float: right;
+  padding-left: 10px;
+}
+
+.projectTitle {
+  text-align: center;
+}
+
+.projectTitle > a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.projectTitle > a:hover {
+  color: #1FDA9A;
 }
 
 .projectPhoto {
-  height: 400px;
-  width: 500px;
-  display: block;
-  border: 1px solid #333333;
-  border-radius: 10px;
-  margin: auto;
+  height: 50%;
+  width: 50%;
+  display: inline-block;
+  /*border: 1px solid #333333;
+  border-radius: 10px;*/
+  /*margin: auto;*/
 }
 
 .skills {
@@ -104,13 +134,14 @@ nav > ul > li {
   margin-left: -40px;
 }
 
+/* Footer */
 footer {
   text-align: center;
-  color: white;
+  color: #F2F2F3;
   background-color: #333333;
   height: 30px;
   margin-top: -16px;
-}*/
+}
 
 /*Responsive Layout*/
 /*@media screen and (max-width: 620px) {
