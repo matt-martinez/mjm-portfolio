@@ -1,6 +1,6 @@
 /* Main Page */
 body {
-  /*background-color: #CCCCCC;*/
+  /*background-color: #F2F2F3;*/
   font-family: 'Open Sans', sans-serif;
   color: #333333;
   margin: 0;
@@ -45,7 +45,7 @@ nav > ul > li {
   display: block;
   margin: 10px;
   text-align: center;
-  font-size: 3em;
+  font-size: 3.5em;
   font-family: 'Josefin Sans', sans-serif;
   /*color: #F2F2F3;*/
 }
@@ -53,6 +53,7 @@ nav > ul > li {
 #subTitle {
   text-align: center;
   margin: 10px;
+  font-family: 'Josefin Sans', sans-serif;
   /*color: #F2F2F3;*/
 }
 
@@ -75,11 +76,12 @@ nav > ul > li {
 
 .contentTitles {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .individualProject {
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
 }
 
 .leftProject {
@@ -98,6 +100,8 @@ nav > ul > li {
 
 .projectTitle {
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
 }
 
 .projectTitle > a {
