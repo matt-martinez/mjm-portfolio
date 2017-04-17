@@ -11,7 +11,7 @@ nav > ul {
   padding: 0;
   margin: 0;
   text-align: center;
-  background: #333333;
+  background-color: #333333;
   height: 50px;
 }
 
@@ -134,8 +134,13 @@ nav > ul > li {
   justify-content: space-around;
 }
 
-.skillsList {
+.skillsList > li {
   list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.skillsIcons {
+  font-size: 4em;
 }
 
 #education {
