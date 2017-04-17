@@ -122,6 +122,12 @@ nav > ul > li {
   /*margin: auto;*/
 }
 
+.projectIcons {
+  font-size: 2em;
+  margin: auto;
+  width: 55%;
+}
+
 .skills {
   display: flex;
   flex-flow: row;
