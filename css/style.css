@@ -21,17 +21,17 @@ nav > ul > li {
   padding: 1em 2em;
 }
 
-.contactIcons {
+.navIcons {
   color: #1FDA9A;
 }
 
-.contactLinks {
+.navLinks {
   text-decoration: none;
   font-size: larger;
   color: #F2F2F3;
 }
 
-.contactLinks:hover {
+.navLinks:hover {
   color: #1FDA9A;
 }
 
@@ -131,8 +131,7 @@ nav > ul > li {
 
 .projectIcons {
   font-size: 2em;
-  margin: auto;
-  width: 55%;
+  text-align: center;
 }
 
 .skills {
@@ -150,11 +149,33 @@ nav > ul > li {
   font-size: 4em;
 }
 
-#education {
+/* Contact */
+.contact {
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.contactIcons {
+  color: #1FDA9A;
+  font-size: 2.5em;
+}
+
+.contactLinks {
+  text-decoration: none;
+  font-size: 2em;
+  color: #333333;
+}
+
+.contactLinks:hover {
+  color: #1FDA9A;
+}
+
+
+/*#education {
   list-style-type: none;
   line-height: 1;
   margin-left: -40px;
-}
+}*/
 
 /* Footer */
 footer {
